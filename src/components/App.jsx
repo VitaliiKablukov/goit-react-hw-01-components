@@ -1,16 +1,14 @@
+import { Profile } from './Profile';
+import userInfo from '../user.json';
+import { Fragment } from 'react';
+import { FriendList } from './FriendList';
+import { Statistics } from './Statistics';
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Fragment>
+      <Profile userInfo={userInfo} />
+      <Statistics />
+      <FriendList />
+    </Fragment>
   );
 };
