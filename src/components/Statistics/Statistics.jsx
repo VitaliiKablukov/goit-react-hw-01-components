@@ -16,7 +16,7 @@ function getRandomHexColor() {
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={statistics_section}>
-      {title ? <h2 className={statics_title}>{title}</h2> : ''}
+      {title ? <h2 className={statics_title}>{title}</h2> : null}
       <ul className={stat_list}>
         {stats.map(arry => {
           const { id, label, percentage } = arry;
