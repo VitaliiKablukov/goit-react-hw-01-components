@@ -1,3 +1,18 @@
+.statistics_section {
+  width: 280px;
+  margin: 0 auto;
+  border: 1px solid;
+  border-color: #000;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.statics_title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .stat_list {
   display: flex;
   align-items: center;
