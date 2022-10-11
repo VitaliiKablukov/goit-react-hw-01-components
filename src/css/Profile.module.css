@@ -1,11 +1,12 @@
 .profile {
   width: 280px;
   padding-top: 60px;
-  margin-bottom: 20px;
   margin: 0 auto;
   background-color: rgb(3, 209, 199);
   border: 1px solid;
   border-color: #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 .description {
   text-align: center;
