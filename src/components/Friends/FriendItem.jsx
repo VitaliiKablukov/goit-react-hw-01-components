@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 
 const { item, online, offline, item_avatar, item_name } = css;
-export const FriendItem = ({ friend }) => {
+export const FriendListItem = ({ friend }) => {
   return friend.map(arry => {
     const { avatar, name, isOnline, id } = arry;
     return (
@@ -19,7 +19,7 @@ export const FriendItem = ({ friend }) => {
     );
   });
 };
-FriendItem.propTypes = {
+FriendListItem.propTypes = {
   friend: PropTypes.arrayOf(
     PropTypes.shape({
       avatar: PropTypes.string.isRequired,
